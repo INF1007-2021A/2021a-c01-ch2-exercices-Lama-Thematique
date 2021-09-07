@@ -7,7 +7,6 @@ def majuscule(mot):
     if (i >= 97 and i <= 122):
         return chr(i-32) + majuscule(mot[1:])
     return mot[0] + majuscule(mot[1:])
-    return mot
 
 
 if __name__ == '__main__':
